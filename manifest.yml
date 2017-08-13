@@ -1,0 +1,6 @@
+---
+applications:
+ - name: TieDashboard
+   random-route: true
+   memory: 256M
+   timeout: 180

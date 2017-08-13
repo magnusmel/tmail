@@ -1,0 +1,310 @@
+Retrieving logs for app [36;1mTiedashboard[0m in org [36;1mRoadbang[0m / space [36;1mdev[0m as [36;1mvishal.vsd@gmail.com[0m...
+
+   2017-07-18T10:55:38.81+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T11:13:30.12+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T11:13:41.43+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T11:13:55.38+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T11:13:55.40+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T11:13:55.40+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.226:3001
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1]       throw er; // Unhandled 'error' event
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1] 
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1] Error: watch vendor/node/lib/node_modules/npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/node_modules/es6-symbol/node_modules/es5-ext/array/_is-extensible.js ENOSPC
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1]     at createFsWatchInstance (/home/vcap/app/node_modules/chokidar/lib/nodefs-handler.js:37:15)
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1]     at FSWatcher.NodeFsHandler._watchWithNodeFs (/home/vcap/app/node_modules/chokidar/lib/nodefs-handler.js:228:14)
+   2017-07-18T11:14:00.66+0200 [APP/PROC/WEB/0] OUT [1]     at FSReqWrap.oncomplete (fs.js:123:15)
+   2017-07-18T11:14:05.05+0200 [APP/PROC/WEB/0] OUT [0] 9:14:05 AM - Compilation complete. Watching for file changes.
+   2017-07-18T11:14:52.94+0200 [CELL/0] OUT Destroying container
+   2017-07-18T11:31:21.02+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T11:32:16.50+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T11:32:18.02+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T11:32:18.08+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T11:32:18.08+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.2:3001
+   [31m2017-07-18T11:32:43.76+0200 [HEALTH/0] ERR Exit status 4[0m
+   2017-07-18T11:32:54.82+0200 [API/6] OUT Process has crashed with type: "web"
+   2017-07-18T11:32:54.85+0200 [API/6] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"69098992-f256-4baf-67f6-53e4", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.2:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>20, "crash_timestamp"=>1500370374784736073, "version"=>"b361963b-8f0f-4fcb-91e3-6b13e055ec6a"}
+   2017-07-18T11:49:04.27+0200 [CELL/0] OUT Creating container
+   2017-07-18T11:49:06.81+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T11:49:14.10+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T11:49:15.38+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T11:49:15.38+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T11:49:23.17+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T11:49:23.17+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T11:49:23.19+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T11:49:23.19+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T11:49:23.19+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T11:49:23.19+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.1.54:3000
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.1.54:3001
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T11:49:23.53+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T11:49:23.58+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T11:49:23.70+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T11:49:27.61+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T11:49:27.63+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T11:50:16.25+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.1.54:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T11:50:16.25+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T11:50:16.25+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T11:50:16.25+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T11:50:27.27+0200 [CELL/0] OUT Destroying container
+   2017-07-18T11:50:27.30+0200 [API/2] OUT Process has crashed with type: "web"
+   2017-07-18T11:50:27.32+0200 [API/2] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"2d1a4a7d-5fcc-4496-530f-32e2", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.1.54:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>21, "crash_timestamp"=>1500371427264759786, "version"=>"b361963b-8f0f-4fcb-91e3-6b13e055ec6a"}
+   2017-07-18T11:50:29.08+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:06:58.70+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:07:01.45+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:07:05.94+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:07:07.10+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:07:07.10+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:07:15.96+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:07:16.68+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:07:16.71+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:07:16.71+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:07:16.71+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.114:3000
+   2017-07-18T12:07:16.71+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:07:16.73+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:07:16.73+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.114:3001
+   2017-07-18T12:07:16.73+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:07:16.73+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:07:16.76+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:07:17.02+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:07:20.88+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:07:20.90+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:08:08.12+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.114:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:08:08.12+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:08:08.12+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:08:08.12+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:08:19.13+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:08:19.17+0200 [API/10] OUT Process has crashed with type: "web"
+   2017-07-18T12:08:19.19+0200 [API/10] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"49efcc33-a26f-425b-4705-5849", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.114:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>22, "crash_timestamp"=>1500372499130263317, "version"=>"b361963b-8f0f-4fcb-91e3-6b13e055ec6a"}
+   2017-07-18T12:08:21.20+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:24:53.03+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:24:56.35+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:25:06.06+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:25:09.29+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:25:09.29+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:25:26.79+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:25:26.80+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:25:26.81+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:25:26.81+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:25:26.81+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:25:26.81+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:25:27.42+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:25:27.42+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.178:3000
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.178:3001
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:25:27.46+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:25:27.51+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:25:27.78+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:25:36.08+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:25:36.20+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:26:09.74+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.178:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:26:09.74+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:26:09.74+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:26:09.76+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:26:20.76+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:26:20.79+0200 [API/10] OUT Process has crashed with type: "web"
+   2017-07-18T12:26:20.82+0200 [API/10] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"8fc91c66-90b2-464e-77d0-3f86", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.178:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>23, "crash_timestamp"=>1500373580759283770, "version"=>"b361963b-8f0f-4fcb-91e3-6b13e055ec6a"}
+   2017-07-18T12:26:22.88+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:33:41.02+0200 [API/2] OUT Updated app with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 ({"state"=>"STOPPED"})
+   2017-07-18T12:33:44.15+0200 [API/4] OUT Updated app with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 ({"state"=>"STARTED"})
+   2017-07-18T12:33:44.91+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:33:48.17+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:33:55.71+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:33:57.68+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:33:57.68+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:34:10.69+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:34:11.34+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:34:11.34+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:34:11.34+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:34:11.35+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.98:3000
+   2017-07-18T12:34:11.37+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:34:11.37+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:34:11.37+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.98:3001
+   2017-07-18T12:34:11.37+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:34:11.37+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:34:11.45+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:34:11.62+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:34:18.70+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:34:18.72+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:34:56.76+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.98:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:34:56.76+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:34:56.76+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:34:56.82+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:35:08.01+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:35:08.06+0200 [API/2] OUT Process has crashed with type: "web"
+   2017-07-18T12:35:08.08+0200 [API/2] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"261ffc93-eef0-4760-6d1d-9eb8", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.98:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>1, "crash_timestamp"=>1500374107783471887, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:35:08.36+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:35:10.78+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:35:11.33+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:35:17.27+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:35:18.36+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:35:18.36+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:35:25.58+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:35:25.60+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:35:25.61+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:35:25.61+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:35:25.61+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:35:25.61+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:35:26.04+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:35:26.04+0200 [APP/PROC/WEB/0] OUT [1]  -----------------------------------
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.2:3000
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]  -----------------------------------
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.2:3001
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1]  -----------------------------------
+   2017-07-18T12:35:26.05+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:35:26.09+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:35:26.22+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:35:29.84+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:35:29.84+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:36:17.95+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.2:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:36:17.95+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:36:17.95+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:36:17.96+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:36:29.01+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:36:29.10+0200 [API/0] OUT Process has crashed with type: "web"
+   2017-07-18T12:36:29.12+0200 [API/0] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"54135e62-6dc2-478b-7d2b-0441", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.2:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>2, "crash_timestamp"=>1500374188963099331, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:36:29.60+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:36:31.07+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:36:32.52+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:36:43.96+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:36:46.32+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:36:46.32+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:37:03.94+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:37:04.02+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:37:04.02+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:37:04.02+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:37:04.02+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:37:04.02+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:37:04.76+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:37:04.76+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:37:04.76+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.82:3000
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.82:3001
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:37:04.79+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:37:04.83+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:37:05.20+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:37:17.49+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:37:17.49+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:37:45.99+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.82:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:37:45.99+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:37:45.99+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:37:46.00+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:37:57.00+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:37:57.03+0200 [API/1] OUT Process has crashed with type: "web"
+   2017-07-18T12:37:57.05+0200 [API/1] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"2de38d95-4f55-4885-631f-44ee", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.82:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>3, "crash_timestamp"=>1500374277000626680, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:37:59.84+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:39:00.80+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:39:03.67+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:39:09.49+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:39:10.63+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:39:10.63+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:39:17.71+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.0.162:3000
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.0.162:3001
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1]  -------------------------------------
+   2017-07-18T12:39:17.94+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:39:17.97+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:39:18.14+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:39:21.24+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:39:21.24+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:40:11.51+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.162:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:40:11.51+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:40:11.51+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:40:11.56+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:40:22.57+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:40:22.61+0200 [API/7] OUT Process has crashed with type: "web"
+   2017-07-18T12:40:22.64+0200 [API/7] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"171ebc04-ad71-4a5e-78e3-1ad9", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.0.162:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>4, "crash_timestamp"=>1500374422533473518, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:40:24.38+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:42:06.07+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:42:08.94+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:42:17.35+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:42:19.14+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:42:19.14+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:42:31.56+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:42:32.44+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:42:32.44+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.2.10:3000
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.2.10:3001
+   2017-07-18T12:42:32.48+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:42:32.55+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:42:32.75+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:42:33.03+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:42:40.43+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:42:40.54+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   [31m2017-07-18T12:43:19.17+0200 [HEALTH/0] ERR healthcheck failed: failure to make TCP connection: dial tcp 10.254.2.10:8080: getsockopt: connection refused[0m
+   [31m2017-07-18T12:43:19.17+0200 [HEALTH/0] ERR Exit status 4[0m
+   [31m2017-07-18T12:43:19.17+0200 [CELL/0] ERR Timed out after 1m0s: health check never passed.[0m
+   2017-07-18T12:43:19.17+0200 [CELL/0] OUT Exit status 0
+   2017-07-18T12:43:30.20+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:43:30.23+0200 [API/4] OUT Process has crashed with type: "web"
+   2017-07-18T12:43:30.25+0200 [API/4] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"d674fa35-0cca-46e4-70d2-f1e5", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.2.10:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>5, "crash_timestamp"=>1500374610186372037, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:43:31.97+0200 [CELL/0] OUT Successfully destroyed container
+   2017-07-18T12:45:48.09+0200 [CELL/0] OUT Creating container
+   2017-07-18T12:45:52.96+0200 [CELL/0] OUT Successfully created container
+   2017-07-18T12:46:08.50+0200 [CELL/0] OUT Starting health monitoring of container
+   2017-07-18T12:46:13.30+0200 [APP/PROC/WEB/0] OUT > material-dashboard-angular2@1.2.0 start /home/vcap/app
+   2017-07-18T12:46:13.30+0200 [APP/PROC/WEB/0] OUT > tsc && concurrently "tsc -w" "lite-server" 
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1] ** browser-sync config **
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1] { injectChanges: false,
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1]   files: [ './**/*.{html,htm,css,js}' ],
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1]   watchOptions: { ignored: 'node_modules' },
+   2017-07-18T12:46:34.52+0200 [APP/PROC/WEB/0] OUT [1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1] [BS] Access URLs:
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]        Local: http://localhost:3000
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]     External: http://10.254.2.50:3000
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]           UI: http://localhost:3001
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]  UI External: http://10.254.2.50:3001
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1]  ------------------------------------
+   2017-07-18T12:46:35.12+0200 [APP/PROC/WEB/0] OUT [1] [BS] Serving files from: ./
+   2017-07-18T12:46:35.21+0200 [APP/PROC/WEB/0] OUT [1] [BS] Watching files...
+   2017-07-18T12:46:35.55+0200 [APP/PROC/WEB/0] OUT [1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+   2017-07-18T12:46:46.02+0200 [APP/PROC/WEB/0] OUT [0] Killed
+   2017-07-18T12:46:46.04+0200 [APP/PROC/WEB/0] OUT [0] tsc -w exited with code 137
+   2017-07-18T12:47:22.77+0200 [CELL/0] OUT Destroying container
+   2017-07-18T12:47:22.83+0200 [API/6] OUT Process has crashed with type: "web"
+   2017-07-18T12:47:22.85+0200 [API/6] OUT App instance exited with guid b7ddaa22-e546-4f01-99a1-84987cb59f27 payload: {"instance"=>"6cadafd9-6e06-46db-4289-5d03", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* Instance never healthy after 1m0s: healthcheck failed: failure to make TCP connection: dial tcp 10.254.2.50:8080: getsockopt: connection refused\nExit status 4\n* 2 error(s) occurred:\n\n* cancelled\n* process did not exit", "crash_count"=>6, "crash_timestamp"=>1500374842762157082, "version"=>"d9f5b01b-e7f9-40fd-a601-8f10f010ad26"}
+   2017-07-18T12:47:25.65+0200 [CELL/0] OUT Successfully destroyed container
