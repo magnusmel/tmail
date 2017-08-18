@@ -1,0 +1,1 @@
+{"version":3,"file":"campaigns.component.js","sourceRoot":"","sources":["campaigns.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAQ1C;IAAA;IAAkC,CAAC;IANnC;QAAC,gBAAS,CAAC;YACV,QAAQ,EAAE,eAAe;YACtB,QAAQ,EAAE,MAAM,CAAC,EAAE;YACtB,WAAW,EAAE,0BAA0B;SACvC,CAAC;;0BAAA;IAEgC,yBAAC;AAAD,CAAC,AAAnC,IAAmC;AAAtB,0BAAkB,qBAAI,CAAA"}

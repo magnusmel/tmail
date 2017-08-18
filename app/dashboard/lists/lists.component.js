@@ -9,18 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var TypographyComponent = (function () {
-    function TypographyComponent() {
+var ListsComponent = (function () {
+    function ListsComponent() {
     }
-    TypographyComponent = __decorate([
+    ListsComponent.prototype.ngOnInit = function () {
+        // $.getScript('../../../assets/js/material-dashboard.js');
+    };
+    ListsComponent = __decorate([
         core_1.Component({
-            selector: 'typography-cmp',
+            selector: 'lists-cmp',
             moduleId: module.id,
-            templateUrl: 'typography.component.html'
+            templateUrl: 'lists.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], TypographyComponent);
-    return TypographyComponent;
+    ], ListsComponent);
+    return ListsComponent;
 }());
-exports.TypographyComponent = TypographyComponent;
-//# sourceMappingURL=typography.component.js.map
+exports.ListsComponent = ListsComponent;
+//# sourceMappingURL=lists.component.js.map

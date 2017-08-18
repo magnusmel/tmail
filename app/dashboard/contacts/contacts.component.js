@@ -9,21 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var UserComponent = (function () {
-    function UserComponent() {
+var ContactsComponent = (function () {
+    function ContactsComponent() {
     }
-    UserComponent.prototype.ngOnInit = function () {
-        // $.getScript('../../../assets/js/material-dashboard.js');
-    };
-    UserComponent = __decorate([
+    ContactsComponent = __decorate([
         core_1.Component({
-            selector: 'user-cmp',
+            selector: 'contacts-cmp',
             moduleId: module.id,
-            templateUrl: 'user.component.html'
+            templateUrl: 'contacts.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], UserComponent);
-    return UserComponent;
+    ], ContactsComponent);
+    return ContactsComponent;
 }());
-exports.UserComponent = UserComponent;
-//# sourceMappingURL=user.component.js.map
+exports.ContactsComponent = ContactsComponent;
+//# sourceMappingURL=contacts.component.js.map

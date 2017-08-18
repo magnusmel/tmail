@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var TableComponent = (function () {
-    function TableComponent() {
+var StatsComponent = (function () {
+    function StatsComponent() {
     }
-    TableComponent = __decorate([
+    StatsComponent = __decorate([
         core_1.Component({
-            selector: 'table-cmp',
+            selector: 'stats-cmp',
             moduleId: module.id,
-            templateUrl: 'table.component.html'
+            templateUrl: 'stats.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], TableComponent);
-    return TableComponent;
+    ], StatsComponent);
+    return StatsComponent;
 }());
-exports.TableComponent = TableComponent;
-//# sourceMappingURL=table.component.js.map
+exports.StatsComponent = StatsComponent;
+//# sourceMappingURL=stats.component.js.map

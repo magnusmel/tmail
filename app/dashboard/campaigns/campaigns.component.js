@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var IconsComponent = (function () {
-    function IconsComponent() {
+var CampaignsComponent = (function () {
+    function CampaignsComponent() {
     }
-    IconsComponent = __decorate([
+    CampaignsComponent = __decorate([
         core_1.Component({
-            selector: 'icons-cmp',
+            selector: 'campaigns-cmp',
             moduleId: module.id,
-            templateUrl: 'icons.component.html'
+            templateUrl: 'campaigns.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], IconsComponent);
-    return IconsComponent;
+    ], CampaignsComponent);
+    return CampaignsComponent;
 }());
-exports.IconsComponent = IconsComponent;
-//# sourceMappingURL=icons.component.js.map
+exports.CampaignsComponent = CampaignsComponent;
+//# sourceMappingURL=campaigns.component.js.map

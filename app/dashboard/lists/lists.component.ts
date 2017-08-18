@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'user-cmp',
+    selector: 'lists-cmp',
     moduleId: module.id,
-    templateUrl: 'user.component.html'
+    templateUrl: 'lists.component.html'
 })
 
-export class UserComponent implements OnInit{
+export class ListsComponent implements OnInit{
     ngOnInit(){
         // $.getScript('../../../assets/js/material-dashboard.js');
 
