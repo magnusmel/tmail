@@ -1,216 +1,1389 @@
 <div class="main-content">
     <div class="container-fluid">
 
-<div class="card card-nav-tabs">
-    <div class="card-header" data-background-color="orange">
-        <div class="nav-tabs-navigation">
-            <div class="nav-tabs-wrapper">
-                
-                <span class="nav-tabs-title">Campaigns:</span>
-                <ul class="nav nav-tabs" data-tabs="tabs">
-                    <li class="active">
-                        <a href="#profile" data-toggle="tab">
-                            <i class="material-icons">bug_report</i>
-                            Sent
-                        <div class="ripple-container"></div></a>
-                    </li>
-                    <li class="">
-                        <a href="#messages" data-toggle="tab">
-                            <i class="material-icons">code</i>
-                            Drafts
-                        <div class="ripple-container"></div></a>
-                    </li>
-                    <li class="">
-                        <a href="#settings" data-toggle="tab">
-                            <i class="material-icons">cloud</i>
-                            Scheduled
-                        <div class="ripple-container"></div></a>
-                    </li>
+        <div class="card card-nav-tabs">
+            <div class="card-header" data-background-color="orange">
+                <div class="nav-tabs-navigation">
+                    <div class="nav-tabs-wrapper">
+                        
+                        <span class="nav-tabs-title">Campaigns:</span>
+                        <ul class="nav nav-tabs" data-tabs="tabs">
+                            <li class="active">
+                                <a href="#sent" data-toggle="tab">
+                                    <i class="material-icons">bug_report</i>
+                                    Sent <span style="color:#0F0101"> ( 1 )</span>
+                                <div class="ripple-container"></div></a>
 
-                    <li class="">
-                        <a href="#settings" data-toggle="tab">
-                            <i class="material-icons">cloud</i>
-                            Suspended
-                        <div class="ripple-container"></div></a>
-                    </li>
+                            </li>
+                            <li class="">
+                                <a href="#drafts" data-toggle="tab">
+                                    <i class="material-icons">code</i>
+                                    Drafts <span style="color:#0F0101"> ( 1 )</span>
+                                <div class="ripple-container"></div></a>
+                            </li>
+                            <li class="">
+                                <a href="#scheduled" data-toggle="tab">
+                                    <i class="material-icons">cloud</i>
+                                    Scheduled <span style="color:#0F0101"> ( 0 )</span>
+                                <div class="ripple-container"></div></a>
+                            </li>
 
-                    <li class="">
-                        <a href="#settings" data-toggle="tab">
-                            <i class="material-icons">cloud</i>
-                            Running
-                        <div class="ripple-container"></div></a>
-                    </li>
+                            <li class="">
+                                <a href="#suspended" data-toggle="tab">
+                                    <i class="material-icons">cloud</i>
+                                    Suspended <span style="color:#0F0101"> ( 0 )</span>
+                                <div class="ripple-container"></div></a>
+                            </li>
 
-                    <li class="">
-                        <a href="#settings" data-toggle="tab">
-                            <i class="material-icons">cloud</i>
-                            Archived
-                        <div class="ripple-container"></div></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+                            <li class="">
+                                <a href="#running" data-toggle="tab">
+                                    <i class="material-icons">cloud</i>
+                                    Running <span style="color:#0F0101"> ( 1 )</span>
+                                <div class="ripple-container"></div></a>
+                            </li>
 
-<!--     <div class="card-content">
-        <div class="tab-content">
-            <div class="tab-pane active" id="profile">
-                Sent
-            </div>
-            <div class="tab-pane" id="messages">
-                Drafts
-            </div>
-            <div class="tab-pane" id="settings">
-                Scheduled
-            </div>
-
-            <div class="tab-pane" id="settings">
-                Suspended
-            </div>
-
-            <div class="tab-pane" id="settings">
-                Running
-            </div>
-            <div class="tab-pane" id="settings">
-                Archived
-            </div>
-        </div>
-    </div>
- -->
-    
-
-</div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header" data-background-color="orange">
-                        <h4 class="title">Campaigns</h4>
-                        <p class="category">Here is a subtitle for this table</p>
-                    </div>
-                    <div class="card-content table-responsive">
-                        <table class="table">
-                            <thead class="text-danger">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Subject</th>
-                                    <th>Recipients</th>
-                                    <th>Openers</th>
-                                    <th>Clickers</th>
-                                    <th>Unsubsribe</th>
-                                    <th>Sent Date</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Dakota Rice</td>
-                                    <td>Niger</td>
-                                    <td>Oud-Turnhout</td>
-                                    <td class="text-danger">$36,738</td>
-                                </tr>
-                                <tr>
-                                    <td>Minerva Hooper</td>
-                                    <td>Curaçao</td>
-                                    <td>Sinaai-Waas</td>
-                                    <td class="text-danger">$23,789</td>
-                                </tr>
-                                <tr>
-                                    <td>Sage Rodriguez</td>
-                                    <td>Netherlands</td>
-                                    <td>Baileux</td>
-                                    <td class="text-danger">$56,142</td>
-                                </tr>
-                                <tr>
-                                    <td>Philip Chaney</td>
-                                    <td>Korea, South</td>
-                                    <td>Overland Park</td>
-                                    <td class="text-danger">$38,735</td>
-                                </tr>
-                                <tr>
-                                    <td>Doris Greene</td>
-                                    <td>Malawi</td>
-                                    <td>Feldkirchen in Kärnten</td>
-                                    <td class="text-danger">$63,542</td>
-                                </tr>
-                                <tr>
-                                    <td>Mason Porter</td>
-                                    <td>Chile</td>
-                                    <td>Gloucester</td>
-                                    <td class="text-danger">$78,615</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
+                            <li class="">
+                                <a href="#archived" data-toggle="tab">
+                                    <i class="material-icons">cloud</i>
+                                    Archived <span style="color:#0F0101"> ( 4 )</span>
+                                <div class="ripple-container"></div></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12">
-                <div class="card card-plain">
-                    <div class="card-header" data-background-color="red">
-                        <h4 class="title">Table on Plain Background</h4>
-                        <p class="category">Here is a subtitle for this table</p>
+            <div class="card-content">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="sent">
+                        Sent
+
+                          <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content table-responsive">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Salary</th>
-                                    <th>Country</th>
-                                    <th>City</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Dakota Rice</td>
-                                    <td>$36,738</td>
-                                    <td>Niger</td>
-                                    <td>Oud-Turnhout</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Minerva Hooper</td>
-                                    <td>$23,789</td>
-                                    <td>Curaçao</td>
-                                    <td>Sinaai-Waas</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Sage Rodriguez</td>
-                                    <td>$56,142</td>
-                                    <td>Netherlands</td>
-                                    <td>Baileux</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Philip Chaney</td>
-                                    <td>$38,735</td>
-                                    <td>Korea, South</td>
-                                    <td>Overland Park</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Doris Greene</td>
-                                    <td>$63,542</td>
-                                    <td>Malawi</td>
-                                    <td>Feldkirchen in Kärnten</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Mason Porter</td>
-                                    <td>$78,615</td>
-                                    <td>Chile</td>
-                                    <td>Gloucester</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="tab-pane" id="drafts">
+                        Drafts
+
+                                          <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="scheduled">
+                        Scheduled
+
+
+                                          <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="suspended">
+                        Suspended
+
+                         <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="running">
+                        Running
+
+                                          <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="archived">
+                        Archived
+
+                                          <div class="col-md-12">
+                            <div class="card">
+                                <!-- <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Campaigns</h4>
+                                    <p class="category">Here is a subtitle for this table</p>
+                                </div> -->
+                                <div class="card-content table-responsive">
+                                    <table class="table">
+                                        <thead class="text-danger">
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Subject</th>
+                                                <th>Recipients</th>
+                                                <th>Openers</th>
+                                                <th>Clickers</th>
+                                                <th>Unsubscribe</th>
+                                                <th>Sent Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>41</td>
+                                                <td>Niger</td>
+                                                <td>Oud-Turnhout</td>
+                                                <td >334  <small class="text-primary">(82.5%)</small></td>
+                                              
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>    
+                                            </tr>
+                                            <tr>
+                                                <td>40</td>
+                                                <td>Curaçao</td>
+                                                <td>Sinaai-Waas</td>
+                                                <td >411  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>38</td>
+                                                <td>Netherlands</td>
+                                                <td>Baileux</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >678  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>35</td>
+                                                <td>Korea, South</td>
+                                                <td>Overland Park</td>
+
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >31  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>32</td>
+                                                <td>Malawi</td>
+                                                <td>Feldkirchen in Kärnten</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >444  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>30</td>
+                                                <td>Chile</td>
+                                                <td>Gloucester</td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td>121  <small class="text-primary">(82.5%)</small></td>
+                                                <td >4  <small class="text-primary">(0.5%)</small></td>
+                                                <td >16 Aug, 2017  <small class="text-primary">9.38 AM</small></td>
+                                                   <td>
+                                                     <div class="dropdown">
+                                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                                Actions
+                                                                <b class="caret"></b>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Preview</a></li>
+                                                                <li><a href="#">Edit</a></li>
+                                                                <li><a href="#">Replicate</a></li>
+                                                               <li class="divider"></li>
+                                                               <li><a href="#">Send Test Mail</a></li>
+                                                                <li><a href="#">Requeue</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">View Report</a></li>
+                                                                <li><a href="#">Download PDF</a></li>
+                                                                <li><a href="#">Archive</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            
+
         </div>
+
     </div>
 </div>
